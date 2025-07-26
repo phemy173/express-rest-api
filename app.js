@@ -1,7 +1,7 @@
 // app.js
 const express = require('express');
 const app = express();
-const itemsRouter = require('./routes/items');
+const itemsRouter = require('./routes/itemsRouter');
 
 app.use(express.json()); // Middleware
 
